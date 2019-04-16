@@ -1,0 +1,157 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textViewQn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Qn1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textViewQn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/qn2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#000000"/>
+
+    <RadioGroup
+        android:id="@+id/RadioGrp1"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+
+        <RadioButton
+            android:id="@+id/radioButtonYes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/yes"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/radioButtonNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/no" />
+    </RadioGroup>
+
+
+    <TextView
+        android:id="@+id/textViewQn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/qn3"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold|italic"/>
+
+    <TextView
+        android:id="@+id/textViewQn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/qn2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#000000"/>
+
+    <RadioGroup
+        android:id="@+id/RadioGrp2"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:checked="true">
+
+
+        <RadioButton
+            android:id="@+id/radioButtonYes2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="@string/yes" />
+
+        <RadioButton
+            android:id="@+id/radioButtonNo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/no" />
+    </RadioGroup>
+
+
+    <TextView
+        android:id="@+id/textViewQn5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/qn4"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textViewQn6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/qn2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#000000"/>
+
+    <RadioGroup
+        android:id="@+id/RadioGrp3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioButtonYes3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/yes"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/radioButtonNo3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/no" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textViewQn7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/qn6"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold|italic"/>
+
+    <EditText
+        android:id="@+id/editTextReflect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/buttonOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ok" />
+
+
+</LinearLayout>
+</ScrollView>
